@@ -59,7 +59,7 @@ function ToggleCustomTheme({
 
 export default function LandingPage() {
   return (
-    <Box width="100%">
+    <Box width="100%" data-testid="home-page">
       <AppAppBar mode="light" toggleColorMode={() => {}} />
       <Hero />
       <Box sx={{ bgcolor: "background.default" }}>
